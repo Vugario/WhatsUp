@@ -9,11 +9,14 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    @IBOutlet var window: NSView!
+    @IBOutlet weak var Title: NSTextField!
+    @IBOutlet weak var Send: NSButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        window.hidden = true
     }
 
     override var representedObject: AnyObject? {
@@ -21,7 +24,6 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
 
 }
 
