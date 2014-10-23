@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1D4BBF019F99898004B469E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4BBEF19F99898004B469E /* AppDelegate.swift */; };
+		F1D4BBF219F99898004B469E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4BBF119F99898004B469E /* ViewController.swift */; };
+		F1D4BBF419F99898004B469E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D4BBF319F99898004B469E /* Images.xcassets */; };
+		F1D4BBF719F99898004B469E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D4BBF519F99898004B469E /* Main.storyboard */; };
+		F1D4BC0319F99898004B469E /* WhatsUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4BC0219F99898004B469E /* WhatsUpTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1D4BBFD19F99898004B469E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D4BBE219F99898004B469E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D4BBE919F99898004B469E;
+			remoteInfo = WhatsUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1D4BBEA19F99898004B469E /* WhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D4BBEE19F99898004B469E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D4BBEF19F99898004B469E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1D4BBF119F99898004B469E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1D4BBF319F99898004B469E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1D4BBF619F99898004B469E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1D4BBFC19F99898004B469E /* WhatsUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D4BC0119F99898004B469E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D4BC0219F99898004B469E /* WhatsUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1D4BBE719F99898004B469E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D4BBF919F99898004B469E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1D4BBE119F99898004B469E = {
+			isa = PBXGroup;
+			children = (
+				F1D4BBEC19F99898004B469E /* WhatsUp */,
+				F1D4BBFF19F99898004B469E /* WhatsUpTests */,
+				F1D4BBEB19F99898004B469E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1D4BBEB19F99898004B469E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D4BBEA19F99898004B469E /* WhatsUp.app */,
+				F1D4BBFC19F99898004B469E /* WhatsUpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D4BBEC19F99898004B469E /* WhatsUp */ = {
+			isa = PBXGroup;
+			children = (
+				F1D4BBEF19F99898004B469E /* AppDelegate.swift */,
+				F1D4BBF119F99898004B469E /* ViewController.swift */,
+				F1D4BBF319F99898004B469E /* Images.xcassets */,
+				F1D4BBF519F99898004B469E /* Main.storyboard */,
+				F1D4BBED19F99898004B469E /* Supporting Files */,
+			);
+			path = WhatsUp;
+			sourceTree = "<group>";
+		};
+		F1D4BBED19F99898004B469E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1D4BBEE19F99898004B469E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1D4BBFF19F99898004B469E /* WhatsUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D4BC0219F99898004B469E /* WhatsUpTests.swift */,
+				F1D4BC0019F99898004B469E /* Supporting Files */,
+			);
+			path = WhatsUpTests;
+			sourceTree = "<group>";
+		};
+		F1D4BC0019F99898004B469E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1D4BC0119F99898004B469E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1D4BBE919F99898004B469E /* WhatsUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D4BC0619F99898004B469E /* Build configuration list for PBXNativeTarget "WhatsUp" */;
+			buildPhases = (
+				F1D4BBE619F99898004B469E /* Sources */,
+				F1D4BBE719F99898004B469E /* Frameworks */,
+				F1D4BBE819F99898004B469E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsUp;
+			productName = WhatsUp;
+			productReference = F1D4BBEA19F99898004B469E /* WhatsUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1D4BBFB19F99898004B469E /* WhatsUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D4BC0919F99898004B469E /* Build configuration list for PBXNativeTarget "WhatsUpTests" */;
+			buildPhases = (
+				F1D4BBF819F99898004B469E /* Sources */,
+				F1D4BBF919F99898004B469E /* Frameworks */,
+				F1D4BBFA19F99898004B469E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D4BBFE19F99898004B469E /* PBXTargetDependency */,
+			);
+			name = WhatsUpTests;
+			productName = WhatsUpTests;
+			productReference = F1D4BBFC19F99898004B469E /* WhatsUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1D4BBE219F99898004B469E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Menno Wolvers";
+				TargetAttributes = {
+					F1D4BBE919F99898004B469E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F1D4BBFB19F99898004B469E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F1D4BBE919F99898004B469E;
+					};
+				};
+			};
+			buildConfigurationList = F1D4BBE519F99898004B469E /* Build configuration list for PBXProject "WhatsUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1D4BBE119F99898004B469E;
+			productRefGroup = F1D4BBEB19F99898004B469E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1D4BBE919F99898004B469E /* WhatsUp */,
+				F1D4BBFB19F99898004B469E /* WhatsUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1D4BBE819F99898004B469E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D4BBF419F99898004B469E /* Images.xcassets in Resources */,
+				F1D4BBF719F99898004B469E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D4BBFA19F99898004B469E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1D4BBE619F99898004B469E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D4BBF219F99898004B469E /* ViewController.swift in Sources */,
+				F1D4BBF019F99898004B469E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D4BBF819F99898004B469E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D4BC0319F99898004B469E /* WhatsUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1D4BBFE19F99898004B469E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D4BBE919F99898004B469E /* WhatsUp */;
+			targetProxy = F1D4BBFD19F99898004B469E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1D4BBF519F99898004B469E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D4BBF619F99898004B469E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1D4BC0419F99898004B469E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1D4BC0519F99898004B469E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F1D4BC0719F99898004B469E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhatsUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1D4BC0819F99898004B469E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhatsUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1D4BC0A19F99898004B469E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhatsUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsUp.app/Contents/MacOS/WhatsUp";
+			};
+			name = Debug;
+		};
+		F1D4BC0B19F99898004B469E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhatsUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsUp.app/Contents/MacOS/WhatsUp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1D4BBE519F99898004B469E /* Build configuration list for PBXProject "WhatsUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D4BC0419F99898004B469E /* Debug */,
+				F1D4BC0519F99898004B469E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D4BC0619F99898004B469E /* Build configuration list for PBXNativeTarget "WhatsUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D4BC0719F99898004B469E /* Debug */,
+				F1D4BC0819F99898004B469E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1D4BC0919F99898004B469E /* Build configuration list for PBXNativeTarget "WhatsUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D4BC0A19F99898004B469E /* Debug */,
+				F1D4BC0B19F99898004B469E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1D4BBE219F99898004B469E /* Project object */;
+}
